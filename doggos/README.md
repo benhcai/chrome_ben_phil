@@ -1,3 +1,5 @@
-Sample code for the [Executing arbitrary strings][section] section of the MV3 migration documentation.
+### Todo
 
-[section]: https://developer.chrome.com/docs/extensions/mv3/intro/mv3-migration/#executing-arbitrary-strings
+[] set icon for extension button
+[] add animations
+[] style the popup

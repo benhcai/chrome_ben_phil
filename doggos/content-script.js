@@ -23,7 +23,6 @@ function injectDogs(breed) {
       .then((json) => {
         const loader = document.querySelector("#doggyLoader");
         if (loader) loader.remove();
-
         el.src = json.message;
         el.srcset = json.message;
         el.style = `background-image:url(${json.message})`;
