@@ -10,10 +10,6 @@ async function getCurrentTab() {
 injectFile.addEventListener("click", async () => {
   let tab = await getCurrentTab();
 
-  // chrome.scripting.executeScript({
-  //   target: { tabId: tab.id },
-  //   files: ["content-script.js"],
-  // });
   const inputField = document.querySelector("#breed").value;
 
   chrome.scripting.executeScript(
